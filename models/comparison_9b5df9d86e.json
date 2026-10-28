@@ -1,0 +1,41 @@
+{
+  "config": {
+    "train_size": 10000,
+    "random_state": 42,
+    "dt_max_depth": 12,
+    "rf_n_estimators": 100,
+    "rf_max_depth": 0,
+    "ada_n_estimators": 50,
+    "ada_learning_rate": 0.5,
+    "ada_max_depth": 6
+  },
+  "results": [
+    {
+      "Model": "Decision Tree",
+      "Test accuracy": 0.8232,
+      "Macro precision": 0.8213192921737843,
+      "Macro recall": 0.8206462571432048,
+      "Macro F1": 0.8205617855833532,
+      "Training time (s)": 1.3425780860000032,
+      "Inference time (s)": 0.007641264000085357
+    },
+    {
+      "Model": "AdaBoost",
+      "Test accuracy": 0.9355,
+      "Macro precision": 0.9353716580595759,
+      "Macro recall": 0.9346916886521015,
+      "Macro F1": 0.9348684721942965,
+      "Training time (s)": 38.32131263699989,
+      "Inference time (s)": 0.19553711499997917
+    },
+    {
+      "Model": "Random Forest",
+      "Test accuracy": 0.9513,
+      "Macro precision": 0.9511545179818462,
+      "Macro recall": 0.9508078790005859,
+      "Macro F1": 0.9508786423184092,
+      "Training time (s)": 2.067881427000202,
+      "Inference time (s)": 0.12199981300000218
+    }
+  ]
+}

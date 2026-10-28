@@ -1,0 +1,72 @@
+[
+  {
+    "config_key": "45817755ae",
+    "n_estimators": 50,
+    "learning_rate": 0.5,
+    "max_depth": 6,
+    "train_size": 10000,
+    "random_state": 42,
+    "train_time_s": 41.696,
+    "train_accuracy": 0.9939,
+    "test_accuracy": 0.9355,
+    "baseline_test_accuracy": 0.7264,
+    "n_estimators_fitted": 50,
+    "trained_at": "2026-10-26T05:06:57"
+  },
+  {
+    "config_key": "3d4045f4ae",
+    "n_estimators": 30,
+    "learning_rate": 0.5,
+    "max_depth": 4,
+    "train_size": 5000,
+    "random_state": 42,
+    "train_time_s": 7.637,
+    "train_accuracy": 0.9286,
+    "test_accuracy": 0.8746,
+    "baseline_test_accuracy": 0.6408,
+    "n_estimators_fitted": 30,
+    "trained_at": "2026-10-26T05:18:53"
+  },
+  {
+    "config_key": "1676ef9e1c",
+    "n_estimators": 50,
+    "learning_rate": 0.5,
+    "max_depth": 1,
+    "train_size": 10000,
+    "random_state": 42,
+    "train_time_s": 7.342,
+    "train_accuracy": 0.6342,
+    "test_accuracy": 0.6369,
+    "baseline_test_accuracy": 0.1931,
+    "n_estimators_fitted": 50,
+    "trained_at": "2026-10-26T05:19:13"
+  },
+  {
+    "config_key": "af849ea6fb",
+    "n_estimators": 50,
+    "learning_rate": 0.5,
+    "max_depth": 8,
+    "train_size": 10000,
+    "random_state": 42,
+    "train_time_s": 51.166,
+    "train_accuracy": 1.0,
+    "test_accuracy": 0.9485,
+    "baseline_test_accuracy": 0.8045,
+    "n_estimators_fitted": 50,
+    "trained_at": "2026-10-26T05:20:06"
+  },
+  {
+    "config_key": "0ca196052a",
+    "n_estimators": 100,
+    "learning_rate": 0.5,
+    "max_depth": 10,
+    "train_size": 10000,
+    "random_state": 42,
+    "train_time_s": 120.427,
+    "train_accuracy": 1.0,
+    "test_accuracy": 0.9602,
+    "baseline_test_accuracy": 0.8238,
+    "n_estimators_fitted": 100,
+    "trained_at": "2026-10-26T05:22:09"
+  }
+]
